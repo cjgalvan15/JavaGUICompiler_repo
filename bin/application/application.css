@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+/*.root
+{
+	-fx-background-color:"black";
+}
+.label
+{
+	-fx-font-size:20px;
+	-fx-font-family:"Lucida Console";
+	-fx-text-fill:"white";
+	-fx-alignment: center;
+}
+#titleLabel
+{
+	-fx-font-size:40px;
+}*/
+
+/*.bodybg
+{
+	-fx-background-image: url("/application/bg-img.jpg");
+	-fx-background-size:100% 100%;
+	-fx-border-style:solid;
+	-fx-border-width:10px;
+	-fx-border-color: #85CCA2;
+}
+#topRectangle
+{
+	-fx-border-radius: 100px;
+}
+#titleText
+{
+	-fx-font-size:20px;
+}*/
+
+#entireBody
+{
+	-fx-border-color: #2B1487; 
+	-fx-border-width: 5px 5px 5px 5px;
+}
+#borderPaneTitle
+{
+	-fx-background-image: url("bg-img.jpg");
+	-fx-background-size:100% 100%;
+	-fx-border-color: #2B1487; 
+	-fx-border-width: 5px 0px 0px 0px;
+}
+#miniCompiler
+{
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:25px;
+	-fx-text-fill:"white";
+}
+#inputPane
+{
+	-fx-background-color: linear-gradient(#000000,#2B1487,#7052E9);
+	-fx-alignment: center;
+	-fx-border-radius: 10px;
+}
+#inputText
+{
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:20px;
+	-fx-text-fill:"white";
+}
+#textAreaInput
+{
+	/*-fx-background-color:#D9D9D9;*/
+	-fx-control-inner-background:#000000; 
+	-fx-font-family: Consolas; 
+	-fx-highlight-fill: #00ff00; 
+	-fx-highlight-text-fill: #000000; 
+	-fx-text-fill: #00ff00; 
+	-fx-font-size:15px;
+}
+#textAreaOutput
+{
+	-fx-control-inner-background:#000000; 
+	-fx-font-family: Consolas; 
+	-fx-highlight-fill: #00ff00; 
+	-fx-highlight-text-fill: #000000; 
+	-fx-text-fill: #00ff00; 
+	-fx-font-size:15px;
+}
+#lexicalAnalysisButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:12px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#lexicalAnalysisButton:hover
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+}
+#syntaxAnalysisButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:12px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#syntaxAnalysisButton:hover
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+	
+}
+#semanticAnalysisButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:11px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#semanticAnalysisButton:hover
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+	
+}
+#parseTreesButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:12px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#parseTreesButton:hover
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+	
+}
+#openFileButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:12px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#openFileButton:hover
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+	
+}
+#clearButton
+{
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#3300FF,#000000,#000000, #715EBF);
+	-fx-alignment: center;
+	-fx-font-family: 'Keania One', cursive;
+	-fx-font-size:12px;
+	-fx-text-fill:"white";
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#clearButton:hover
+{
+	-fx-background-radius: 10px;
+	-fx-border-radius:10px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+	-fx-border-width: 1px ;
+	-fx-border-color: white;
+	-fx-background-color: linear-gradient(#003483, #000000, #000000, #10C6FF);
+	
+}
+
+
+
+
+
